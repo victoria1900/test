@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto.woff2") format("woff2"), url("../fonts/roboto.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.section-form__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #3B3D43;
+    margin: 0px;
+}
+
+.section-form__button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6979F8;
+    border-radius: 6px;
+    border: 1px solid #6979F8;
+    padding: 11px 116px 12px 114px;
+    margin-top: 26px;
+    margin-left: 7px;
+}
+
+.section-wraper {
+    background: #F7F5F9;
+    border-radius: 12px;
+}
+
+.section-form__input-text::placeholder,
+.section-form__input-number::placeholder,
+.section-form__input-email::placeholder {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #D0C9D6;
+}
+
+.section-form__input-text,
+.section-form__input-number,
+.section-form__input-email {
+    border: none;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    padding: 14px 220px 14px 15px;
+    border: 1px solid #F7F5F9;
+}
+
+.section-form__input {
+    padding-top: 25px;
+    padding-left: 7px;
+}
+
+.section-wraper {
+    position: fixed;
+    z-index: auto;
+    transform: translate(-50%, -50%);
+    top: 29.3%;
+    left: 49.1%;
+    width: 481px;
+    height: 392px;
+    box-shadow: 0px 5px 15px 0 rgb(0 1 1 / 34%);
+}
+
+.section-form__question {
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+.section-form__input-first {
+    padding-top: 27px;
+    padding-left: 7px;
+}
+
+.section-form__input-second {
+    padding-top: 23px;
+    padding-left: 7px;
+}
+
+.section-form {
+    padding-top: 33px;
+    padding-left: 34px;
+}
+
+.section-form__input-text:hover,
+.section-form__input-number:hover,
+.section-form__input-email:hover {
+    border: 1px solid #8a72fd;
+}
+
+.section-form__button:hover {
+    border: 1px solid #854FC8;
+}
